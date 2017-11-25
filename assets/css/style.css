@@ -1,0 +1,331 @@
+
+
+a {
+    text-decoration: none;
+	color: grey;
+}
+
+
+body {
+	font-family: Georgia, Times, Times New Roman, serif;
+
+}
+
+
+header {
+	border-bottom: 10px;
+	border-color: #F24C4E;
+	padding: 0px 120px 0px 64px;
+}
+
+h1 {
+	float: left;
+	font-size: 300%
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 150px;
+	margin: 0;
+	padding: 25px;
+}
+
+
+nav {
+	float: right;
+	text-align: center;
+	color: #dddddd;
+	position: relative;
+	top: 30px;
+	margin-right: 270px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.big-hr {
+	background-color: lightgrey;
+	border: 0px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.name-color {
+	color: #ffffff;
+}
+
+
+
+
+.about-me-box {
+	position: absolute;
+	border: solid 1px #dddddd;
+	float: left;
+	width: 600px;
+	height: 400px;
+	background-color: #ffffff;
+	margin: 20px 0px 20px 61px;
+	padding: 20px 25px;
+}
+
+.about-me-box-portfolio {
+	position: absolute;
+	border: solid 1px #dddddd;
+	float: left;
+	width: 600px;
+	height: 640px;
+	background-color: #ffffff;
+	margin: 20px 0px 20px 61px;
+	padding: 20px 25px;
+}
+
+.connect {
+	display: inline;
+	position: relative;
+	left: 750px;
+	float: left;
+	border: solid 1px #dddddd;
+	width: 230px;
+	height: 170px;
+	background-color: #ffffff;
+	margin: 20px 50px 20px 0px;
+	padding: 20px 25px;
+
+}
+
+#icon {
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+}
+
+/* used to divide "Chien" add the rest of the tabs. add another class to the tabs.
+.header2 {
+	text-align: center;
+	background-color: #EAB126;
+	position: fixed;
+	padding: 2px 7px;
+	border-style: solid inset inset;
+	border-color: #1FB58F;
+	clear: both;
+
+}
+*/
+
+
+li {
+	color: #777777;
+	display: inline;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px 10px;
+}
+
+.nav-link {
+	border-style: solid;
+	border-width: 0px 2px;
+	border-color: #dddddd;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.section-header {
+	
+	color: #4aaaa5;
+	float: left;
+	height: 490px;
+	margin: 0;
+	background-image: ;
+}
+
+.section-header-portfolio {
+	
+	color: #4aaaa5;
+	float: left;
+	height: 755px;
+	margin: 0;
+}
+
+section {
+	height: 400px;
+	width: 1418px;
+	margin: 30px;
+	background-color: #ffffff;
+	/* replace url with local when you figure out how */
+	border-style: solid;
+	border-color: #dddddd;
+	clear: both;
+	margin: auto;
+	position: relative;
+}
+
+.project-name {
+	float: left;
+	height: 50px;
+	width: 300px;
+	padding-top: 15px;
+	border-width: 10px;
+	border-color: #F24C4E;
+	background-color: #4aaaa5;
+}
+
+.project-name-text {
+	text-align: center;
+	margin: 3px 7px;
+	padding: 5px
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+
+}
+
+
+.contact-box {
+	position: absolute;
+	border: solid 1px #dddddd;
+	float: left;
+	width: 600px;
+	height: 410px;
+	background-color: #ffffff;
+	margin: 20px 0px 20px 61px;
+	padding: 25px 25px;
+}
+
+.long-text-form {
+	width: 550px;
+}
+
+.large-text-form {
+	height: 175px;
+	width: 550px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	padding: 10px 25px;
+	color: #ffffff;
+	border: solid;
+
+}
+
+input {
+	margin: 5px 0px;
+}
+
+footer {
+	display: block;
+	background-color: gray;
+	text-align: center;
+	clear: both;
+	height: 100px;
+}
+
+.center-this {
+	position: relative;
+	top: 40px;
+}
+
+p {
+	line-height: 200%;
+	color: darkgrey;
+}
+
+
+.wrap-image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-height: 250px;
+}
+
+
+.small-container {
+	float: left;
+	margin: 20px;
+	position: relative;
+}
+
+.small-container-text {
+	position: absolute;
+	bottom: 10px;
+	padding: 15px;
+	width: 220px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+.wrap-image2 {
+	height: 150px;
+	width: 250px;
+}
+
+/* For mobile phones: */
+@media only screen and (min-width: 640px) {
+
+	.col-m-1 {width: 100%;}
+    .col-m-2 {width: 100%;}
+    .col-m-3 {width: 100%;}
+    .col-m-4 {width: 100%;}
+    .col-m-5 {width: 100%;}
+    .col-m-6 {width: 100%;}
+    .col-m-7 {width: 100%;}
+    .col-m-8 {width: 100%;}
+    .col-m-9 {width: 100%;}
+    .col-m-10 {width: 100%;}
+    .col-m-11 {width: 100%;}
+    .col-m-12 {width: 100%;}
+    header {
+    	position: static;
+    }
+    .connect {
+    	float: left;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+ 	.connect {
+    	float: left;
+    }
+
+}
+
+@media only screen and (min-width: 980px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+ 	.connect {
+    	float: left;
+    }
+}
+
